@@ -47,9 +47,9 @@ clean:
 
 GOOD to know linux commands:
 
-ls -a #or ls
-mkdir {Hello,hi,there,you,are} #to great multiple parent dir
-find #command read doc
-touch #to create file
+ls -a #or ls \
+mkdir {Hello,hi,there,you,are} #to great multiple parent dir \
+find #command read doc \
+touch #to create file \
 
 tmux nice terminal app
