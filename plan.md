@@ -6,9 +6,13 @@ GLM GLFW
 *should exist in /usr/sbin/ or /lib/*
 
 # apps:
-```sudo apt install vulkan-tools libvulkan-dev vulkan-validationlayers spriv-tools```
+```
+sudo apt install vulkan-tools libvulkan-dev vulkan-validationlayers spriv-tools
+```
 
-```sudo apt install libglfw3-dev libglm-dev libxxf86vm-dev libxi-dev```
+```
+sudo apt install libglfw3-dev libglm-dev libxxf86vm-dev libxi-dev
+```
 
 # Folder structure:
 ```
