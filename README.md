@@ -4,21 +4,23 @@
 
 *** Debian/Ubuntu ***
 ```
-sudo apt install vulkan-tools libvulkan-dev vulkan-validationlayers libglfw3-dev libglm-dev glslang-tools
+sudo add-apt-repository universe
+sudo apt update
+sudo apt install vulkan-tools libvulkan-dev vulkan-validationlayers libglfw3-dev libglm-dev glslang-tools shaderc
 
 # X11
 sudo apt install libxxf86vm-dev
 ```
 *** Arch ***
 ```
-sudo pacman -S vulkan-tools vulkan-loader vulkan-validation-layer glfw glm glslang
+sudo pacman -S vulkan-tools vulkan-loader vulkan-validation-layer glfw glm glslang shaderc
 
 # X11
 sudo pacman -S libxxf86vm
 ```
 *** Gentoo ***
 ```
-sudo emerge --ask media-libs/vulkan-loader media-libs/vulkan-layers dev-util/vulkan-headers dev-util/vulkan-tools dev-util/glslang media-libs/glm media-libs/glfw
+sudo emerge --ask media-libs/vulkan-loader media-libs/vulkan-layers dev-util/vulkan-headers dev-util/vulkan-tools dev-util/glslang media-libs/glm media-libs/glfw 
 
 # X11
 x11-libs/libXxf86vm

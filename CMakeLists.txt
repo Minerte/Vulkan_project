@@ -82,5 +82,6 @@ else()
         -Wall
         -Wextra
         -Wpedantic
+        -O3
     )
 endif()
