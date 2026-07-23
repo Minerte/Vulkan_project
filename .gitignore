@@ -1,2 +1,7 @@
-vulkansdk-linux/*
-vulkansdk-windows/*
+vulkansdk-linux/1.4.350.1
+vulkansdk-linux/default
+vulkansdk-linux/vulkansdk-linux-x86_64-1.4.350.1.tar.xz
+
+vulkansdk-windows/VulkanRT-X64-1.4.350.0-Components.zip
+vulkansdk-windows/VulkanRT-X64-1.4.350.0-Installer.exe
+vulkansdk-windows/vulkansdk-windows-X64-1.4.350.0.exe
