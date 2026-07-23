@@ -1,2 +1,2 @@
-VulkanSDK-*/*
+VulkanSDK-*/**
 !VulkanSDK-*/.gitkeep
